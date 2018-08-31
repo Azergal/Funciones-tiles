@@ -15,43 +15,35 @@ public class FuncionesTeclado {
     
     
     public static int readInt(){
-     
        int num;
-       Scanner leer = new Scanner(System.in);
-
-       num = leer.nextInt();
+       Scanner read = new Scanner(System.in);
+       num = read.nextInt();
    
        return num;
    }
    
    public static double readDouble(){
-     
        double num;
-       Scanner leer = new Scanner(System.in);
-
-       num = leer.nextDouble();
+       Scanner read = new Scanner(System.in);
+       num = read.nextDouble();
    
        return num;
    }
    
    public static float readFloat(){
-     
        float num;
-       Scanner leer = new Scanner(System.in);
-
-       num = leer.nextFloat();
+       Scanner read = new Scanner(System.in);
+       num = read.nextFloat();
    
        return num;
    }
    
    public static String readString(){
-     
-       String cadena;
-       Scanner leer = new Scanner(System.in);
-       
-       cadena = leer.nextLine();
+       String string;
+       Scanner read = new Scanner(System.in);
+       string = read.nextLine();
    
-       return cadena;
+       return string;
    }
     
     
